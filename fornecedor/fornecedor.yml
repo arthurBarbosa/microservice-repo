@@ -4,7 +4,7 @@ spring:
       ddl-auto: update
 
   datasource:
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/fornecedor
+    url: jdbc:mysql://localhost:3306/fornecedor
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
